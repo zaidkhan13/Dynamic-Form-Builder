@@ -1,0 +1,15 @@
+.my-outer-container {
+  min-width: 100vw;
+  min-height: calc(100vh - 56px);
+  background-color: #1d2327;
+  overflow-x: hidden;
+}
+
+.myInnerContainer-1 {
+  max-width: 650px;
+  margin: auto;
+}
+
+.pt-18 {
+  padding-top: 15vh;
+}

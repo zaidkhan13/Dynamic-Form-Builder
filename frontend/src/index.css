@@ -1,0 +1,14 @@
+* {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar, #exampleFormControlTextarea1::-webkit-scrollbar {
+  display: none;
+}
+

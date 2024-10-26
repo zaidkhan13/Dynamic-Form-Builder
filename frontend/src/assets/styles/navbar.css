@@ -1,0 +1,36 @@
+.nav-bg-black {
+  background-color: #1d2327;
+}
+
+.p-12 {
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
+
+.btn-active {
+  border: 1px solid #4e4e4e;
+  border-radius: 4px;
+  padding: 3px 12px 6px 12px;
+  transition: all 0.5s ease;
+}
+
+.btn-active:hover {
+  border-color: #757575;
+}
+
+.nav-link.active .btn-active {
+  border-color: #d0c7c7;
+}
+
+@media (max-width: 1000px) {
+  .btn-active {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .p-12 {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+}
